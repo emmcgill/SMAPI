@@ -114,3 +114,7 @@ C:\Users\mcgil\source\repos\API\SMAPI\obj\Debug\API.csproj.CoreCompileInputs.cac
 C:\Users\mcgil\source\repos\API\SMAPI\obj\Debug\API.csproj.CopyComplete
 C:\Users\mcgil\source\repos\API\SMAPI\obj\Debug\SMAPI.dll
 C:\Users\mcgil\source\repos\API\SMAPI\obj\Debug\SMAPI.pdb
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\SMAPI\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\SMAPI\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\SMAPI\obj\Debug\SMAPI.dll
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\SMAPI\obj\Debug\SMAPI.pdb

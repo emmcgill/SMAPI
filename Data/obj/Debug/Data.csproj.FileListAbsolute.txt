@@ -1,2 +1,4 @@
 C:\Users\mcgil\source\repos\API\Data\obj\Debug\Data.csprojAssemblyReference.cache
 C:\Users\mcgil\source\repos\API\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\mcgil\Desktop\ElevenFifty\SMAPI\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
