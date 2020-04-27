@@ -20,7 +20,7 @@ namespace SMAPI.Models
     }
     public class Comment : APIComment
     {
-        public virtual ICollection<Reply> Replies { get; set; }
+        public virtual DbSet<Reply> Replies { get; set; }
 
     }
 }
