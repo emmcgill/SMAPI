@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
-    "\\SMAPI"
+    "\\SMAPI",
+    "\\SMAPI\\App_Start",
+    "\\SMAPI\\Controllers",
+    "\\SMAPI\\Providers"
   ],
-  "SelectedNode": "\\Data\\IdentityModels.cs",
+  "SelectedNode": "\\SMAPI\\Providers\\ApplicationOAuthProvider.cs",
   "PreviewInSolutionExplorer": false
 }
