@@ -1,6 +1,5 @@
 ﻿using System.CodeDom;
 using System.Data.Entity;
-using System.Data.Entity.Core.Common.CommandTrees;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Net.NetworkInformation;
@@ -9,7 +8,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 namespace Data
@@ -40,8 +38,8 @@ namespace Data
 
         public DbSet<User> Users  { get; set; }
         public DbSet<Post> Posts { get; set; }
-        public DbSet<Comment> Comments { get; set; }
-        public DbSet<Reply> Replies{ get; set; }
+        //public DbSet<Comment> Comments { get; set; }
+        //public DbSet<Reply> Replies{ get; set; }
         public DbSet<Like> Likes { get; set; }
 
 
