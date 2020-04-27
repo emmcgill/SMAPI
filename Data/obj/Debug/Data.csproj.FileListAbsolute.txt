@@ -35,3 +35,7 @@ C:\Users\mcgil\source\repos\SMAPI\Data\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\mcgil\source\repos\SMAPI\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\mcgil\source\repos\SMAPI\Data\obj\Debug\Data.dll
 C:\Users\mcgil\source\repos\SMAPI\Data\obj\Debug\Data.pdb
+C:\Users\owner\Source\Repos\SMAPI\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\owner\Source\Repos\SMAPI\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\owner\Source\Repos\SMAPI\Data\obj\Debug\Data.dll
+C:\Users\owner\Source\Repos\SMAPI\Data\obj\Debug\Data.pdb

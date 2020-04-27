@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
 using API.Models;
+using Data;
+using SMAPI.Models;
 //using System.Linq;
 
 namespace SMAPI.Controllers
@@ -100,22 +102,6 @@ namespace SMAPI.Controllers
             }
 
             db.Replies.Add(reply);
-            await db.SaveChangesAsync();
-
-            return StatusCode(HttpStatusCode.OK);
-        }
-
-        // POST: api/PostLike/
-        [HttpPost]
-        [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PostLike([FromBody]Like like)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            db.Likes.Add(like);
             await db.SaveChangesAsync();
 
             return StatusCode(HttpStatusCode.OK);
