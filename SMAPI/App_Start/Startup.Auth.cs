@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using SMAPI.Providers;
 using SMAPI.Models;
+using Data;
 
 namespace SMAPI
 {
