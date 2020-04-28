@@ -36,7 +36,7 @@ namespace Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<User> Users  { get; set; }
+        public DbSet<Author> Users  { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Reply> Replies{ get; set; }

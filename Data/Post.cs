@@ -15,6 +15,7 @@ namespace Data
         public string Title { get; set; }
         public string Text { get; set; }
         [Required]
-        public User Author { get; set; }
+        public Author Author { get; set; }
+        public object Comments { get; set; }
     }
 }
