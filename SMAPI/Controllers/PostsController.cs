@@ -9,10 +9,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using API.Models;
-using Data;
 using SMAPI.Models;
-//using System.Linq;
+using Data;
 
 namespace SMAPI.Controllers
 {
