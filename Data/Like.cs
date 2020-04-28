@@ -11,6 +11,6 @@ namespace Data
     {
         [Required]
         public Post LikedPost { get; set; }
-        public User Liker { get; set; }
+        public Author Liker { get; set; }
     }
 }
