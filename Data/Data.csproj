@@ -158,7 +158,7 @@
     <Compile Include="Like.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Reply.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Author.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
