@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SMAPI.Services")]
+[assembly: AssemblyTitle("Services")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SMAPI.Services")]
+[assembly: AssemblyProduct("Services")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f56d1ab8-64e5-493c-ad29-42d277664794")]
+[assembly: Guid("14584cd5-5932-49e7-8a99-93de5781dcd8")]
 
 // Version information for an assembly consists of the following four values:
 //

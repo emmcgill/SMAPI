@@ -155,14 +155,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Like.cs" />
+    <Compile Include="Migrations\202004280309350_FirstMigration.cs" />
+    <Compile Include="Migrations\202004280309350_FirstMigration.Designer.cs">
+      <DependentUpon>202004280309350_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Author.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202004280309350_FirstMigration.resx">
+      <DependentUpon>202004280309350_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

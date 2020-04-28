@@ -17,11 +17,15 @@ namespace Data
     {
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)
         {
+           
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
             var userIdentity = await manager.CreateIdentityAsync(this, authenticationType);
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string Name { get; set; }
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -36,7 +40,7 @@ namespace Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<User> Users  { get; set; }
+        public DbSet<Author> Authors  { get; set; }
         public DbSet<Post> Posts { get; set; }
         //public DbSet<Comment> Comments { get; set; }
         //public DbSet<Reply> Replies{ get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class User
+    public class Author
     {
 
         [Key]

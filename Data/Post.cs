@@ -15,6 +15,11 @@ namespace Data
         public string Title { get; set; }
         public string Text { get; set; }
         [Required]
-        public User Author { get; set; }
+        public Guid Author { get; set; }
+
+        [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
+
+        public DateTimeOffset? ModifiedUtc { get; set; }
     }
 }
